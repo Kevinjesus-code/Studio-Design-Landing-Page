@@ -1,0 +1,388 @@
+.main {
+  width: 100%;
+}
+
+/* Section heroHeadline */
+.heroHeadline {
+  margin-top: calc(116px - 42px - 34px);
+  max-width: 1372px;
+  height: 608px;
+  display: flex;
+  margin-left: auto;
+  right: 0;
+  justify-content: space-between;
+  align-items: center;
+}
+.heroHeadline img {
+  position: absolute;
+}
+.Content {
+  width: 471px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  height: 265px;
+}
+
+.heroImage {
+  height: 608px;
+  width: calc(1440px - 623px);
+  position: relative;
+  right: 0;
+}
+.elipse,
+.image,
+.rectangle {
+  position: absolute;
+  object-fit: cover;
+}
+.image {
+  right: 0;
+}
+.rectangle {
+  bottom: 0;
+  margin-left: calc(1142px - 623px);
+}
+/*Termina Section heroHeadline */
+
+/* Section OurClient */
+.OurClient {
+  width: 1200px;
+  height: 124px;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: calc(764px - 116px - 608px);
+  margin-left: auto;
+  margin-right: auto;
+}
+.ourClientContent {
+  width: 336px;
+  height: 124px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.clientLogos {
+  width: 804px;
+  display: flex;
+  height: 50px;
+  align-items: center;
+  justify-content: space-between;
+}
+/*Termina  Section OurClient */
+
+/* Section HowCanWeHelp */
+.HowCanWeHelpContent {
+  width: 396px;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: 20px;
+  z-index: 1;
+}
+.HowCanWeHelp {
+  width: 1358px;
+  height: 867px;
+  margin-top: calc(982px - 764px - 124px);
+  position: relative;
+  margin-left: auto;
+  right: 0;
+  img {
+    position: absolute;
+  }
+}
+.cardContainer {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  width: fit-content;
+  margin-left: calc(607px - 82px);
+}
+
+.cardContainer .card:nth-child(1),
+.cardContainer .card:nth-child(3) {
+  margin-top: 50px;
+}
+/*Termina Section HowCanWeHelp */
+
+/* Section GreatSince */
+.GreatSince {
+  width: 1200px;
+  height: 436px;
+  margin-top: calc(1995px - 982px - 867px);
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-between;
+}
+
+.GreatSinceImage {
+  width: 47%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: none;
+}
+.GreatSinceImage img {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  cursor: pointer;
+}
+.imageContainer {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 550px;
+  height: 372px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imageJPG {
+  border-radius: 32px;
+  box-shadow: 10px 20px 50px 0px rgba(0, 0, 0, 0.15);
+}
+.ellipse86 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.GreatSinceContent {
+  position: relative;
+  width: 47%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.rectangle261 {
+  position: absolute;
+  top: 40px;
+  left: -35px;
+  z-index: -1;
+}
+/*Termina Section GreatSince */
+
+/* Section HappyClient */
+.HappyClient {
+  width: 1264px;
+  height: 597px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: calc(2548px - 1995px - 436px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.centrado{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+}
+.HappyClientContent {
+  width: 1264px;
+  height: 355px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.HappyClientContentOne {
+  width: 426px;
+  height: 420px;
+  position: relative;
+  
+}
+.HappyClientContentOne img {
+ position: absolute;
+}
+.dot{
+  top: 0;
+  right: 0;
+}
+.elipseThwo{
+  bottom: 0;
+  left: 0;
+}
+.HappyClientContentTwo {
+  width: 412px;
+  height: 185px;
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+}
+
+.imageSlider {
+  width: 389px;
+  height: 389px;
+  border-top-left-radius: 500px;
+  border-bottom-right-radius: 500px;
+  border-bottom-left-radius: 500px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  object-fit: cover;
+}
+.slider {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin-top: 20px;
+}
+.elipseSlider {
+  width: 16px;
+  height: 16px;
+  background-color: rgba(231, 240, 252, 1);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.elipseSlider.active {
+  background-color: rgba(38, 57, 237, 1);
+}
+.HappyClientContentThree {
+  width: 348px;
+  height: 355px;
+  position: relative;
+  img{
+    position: absolute;
+  }
+  .elipse{
+    z-index: -1;
+    top: 110px;
+    left: 25px;
+  }
+  
+}
+.titleSlider{
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(0, 0, 0, 1);
+}
+.paragraphSlider{
+ font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  letter-spacing: 0%;
+  color: rgba(86, 86, 86, 1);
+}
+/* Termina Section HappyClient */
+
+/*Section Newsletter*/
+
+.Newsletter {
+  width: 1272px;
+  height: 387px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: calc(3237px - 2548px - 597px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.Newsletter > img {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+.NewsletterContent {
+  width: 1197px;
+  height: 292px;
+  border-radius: 75px;
+  background-color: rgba(244, 249, 255, 1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.NewsletterContentOne {
+  width: 500px;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 10px;
+}
+.NewsletterContentOneContent {
+  width: 400px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+
+  flex-direction: column;
+}
+.NewsletterContentTwo {
+  width: 650px;
+  height: 292px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.NewsletterContentTwoContent {
+  width: 550px;
+  height: 80px;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 60px;
+  border-width: 1px;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.NewsletterContentTwoContent input {
+  width: 250px;
+  height: 20px;
+  padding-left: 15px;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  font-size: 16px;
+}
+
+.NewsletterContentTwoContent input:focus {
+  width: 250px;
+  height: 20px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  padding-left: 15px;
+}
+.NewsletterContentTwoContent input::placeholder {
+  font-size: 16px;
+  color: rgba(149, 149, 149, 1);
+}
+.NewsletterContentTwo > img {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+/*Termina Section Newsletter*/
