@@ -1,0 +1,38 @@
+/* header */
+.header {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 42px;
+}
+.navbar {
+  width: 1200px;
+  display: flex;
+  height: 34px;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar h1 {
+  font-size: 27.15px;
+}
+
+.navbar span {
+  font-weight: 700;
+}
+.nav-links {
+  display: flex;
+  width: 645px;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-links a {
+  text-decoration: none;
+  color: black;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 1%;
+}
+.nav-links li {
+  list-style: none;
+}

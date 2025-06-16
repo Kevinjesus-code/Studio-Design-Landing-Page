@@ -1,0 +1,79 @@
+/*Footer*/
+.FooterContainer {
+  width: 1200px;
+  height: 348px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: calc(3731px - 387px - 3237px);
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid rgba(228, 228, 228, 1);
+  align-items: center;
+
+
+  border-bottom: 1px solid rgba(228, 228, 228, 1);
+}
+.FooterOne {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 270px;
+    height: 100%;
+    gap: 5px;
+}
+.FooterOne > h2 {
+    font-size: 24px;
+}
+
+.RedesSociales {
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+}
+.RedesSociales img {
+    cursor: pointer;
+}
+.FooterTwo{
+    width: 700px;
+    height: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.FooterTwo h2 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+.cardFooter{
+
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+   
+}
+.cardFooter li {
+list-style-type: none;
+padding: 6px 0;
+font-weight: 400;
+font-size: 14px;
+
+
+}
+.cardFooter ul {
+padding: 5px 0;
+}
+.Copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-weight: 400;
+  font-size: 14px;
+  color: rgba(164, 164, 164, 1);
+}
